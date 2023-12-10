@@ -3,7 +3,7 @@ import datetime
 
 def add_new_expense(cursor, connection):
     date = input("Enter the date of the expense (YYYY-MM-DD):\n")
-    description = input("Enter the description of the expense:\n")
+    description = input("Enter the description of the expense:\n").upper()
 
     cursor.execute("SELECT DISTINCT category FROM expenses")
     categories = cursor.fetchall()
@@ -15,7 +15,7 @@ def add_new_expense(cursor, connection):
 
     category_choice = int(input())
     if category_choice == len(categories) + 1:
-        category = input("Enter the new category name:\n")
+        category = input("Enter the new category name:\n").upper()
     else:
         category = categories[category_choice - 1][0]
 
