@@ -1,7 +1,6 @@
 import sqlite3
 
 def create_expenses_table():
-    # Context manager (using 'with' statement) to ensure proper closing of the connection
     with sqlite3.connect("expenses.db") as conn:
         cur = conn.cursor()
 
@@ -13,8 +12,8 @@ def create_expenses_table():
                     category TEXT,
                     price REAL)""")
         
-        # Commit changes and close the connection
+        
         conn.commit()
 
-# Calling the function to create the expenses table
+
 create_expenses_table()
