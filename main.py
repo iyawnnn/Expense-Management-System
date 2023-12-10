@@ -8,7 +8,7 @@ def add_new_expense(cursor, connection):
     cursor.execute("SELECT DISTINCT category FROM expenses")
     categories = cursor.fetchall()
 
-    print("Select a category by number:\n")
+    print("Select a category by number: ")
     for idx, category in enumerate(categories):
         print(f"{idx + 1}. {category[0]}")
     print(f"{len(categories) + 1}. Create a new category")
