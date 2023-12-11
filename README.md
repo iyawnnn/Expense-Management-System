@@ -25,5 +25,6 @@ pip install tabulate matplotlib
 Usage
 
 Run main.py.
+
 Follow the menu prompts to perform various operations such as adding expenses, viewing expenses, analyzing data, etc.
 Make sure to enter data in the specified format for dates and prices (YYYY-MM-DD and numerical values respectively) when prompted.
