@@ -4,9 +4,13 @@ The Expense Manager is a simple Python-based expense tracking application that a
 Features
 
 Add New Expense: Users can add new expenses by providing details like date, description, category, and price.
+
 View All Expenses: Provides a tabulated view of all recorded expenses along with a pie chart showcasing expenses by category.
+
 View Monthly Expenses: Displays monthly expenses filtered by month and year along with category-wise expenditure.
+
 Data Analysis: Provides features like total expenses, average expenses per month, and expenses categorized by different expense categories.
+
 User-Friendly Interface: An intuitive menu-driven interface for easy navigation and usage.
 
 Requirements
