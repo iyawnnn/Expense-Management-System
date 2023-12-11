@@ -12,6 +12,7 @@ User-Friendly Interface: An intuitive menu-driven interface for easy navigation 
 Requirements
 
 Python 3.x
+
 Required Python libraries: sqlite3, datetime, locale, tabulate, matplotlib
 
 Installation
