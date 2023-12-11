@@ -1,4 +1,5 @@
 Expense Manager
+
 The Expense Manager is a simple Python-based expense tracking application that allows users to manage their expenses, view, add, and analyze expenditure data easily.
 
 Features
