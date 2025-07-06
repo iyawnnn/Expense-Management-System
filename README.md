@@ -14,10 +14,3 @@ Expense Manager is a simple Python-based expense tracking application that allow
 
 - **Python 3.x**
 - **Required Python Libraries:** `sqlite3`, `datetime`, `locale`, `tabulate`, `matplotlib`
-
-## Installation
-
-1. **Clone or Download the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/expense-manager.git
-   cd expense-manager
